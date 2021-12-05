@@ -18,7 +18,7 @@ public class Principal {
 
         TransaccionBancaria tr1 = new TransaccionBancariaImpl(mp);
         tr1.setManejadorPersistencia(mp);
-        tr1.realizarTranferencia("0930146", "315300",200.00f);
+        tr1.realizarTranferencia("0930146", "315300",50.00f);
 
         //Realizando esto TransaccionBancaria ya no crea las dependencias que necesita para funcionar
         //Sino que ahora el MAIN le entrega las dependencias que necesita

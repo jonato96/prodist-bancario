@@ -1,5 +1,5 @@
 package com.programacion;
-
+@MiComponente
 public class ManejadorPersistenciaNoSqlImpl implements ManejadorPersistencia {
     //Podemos usar mas de una implementacion con una sola interface
 

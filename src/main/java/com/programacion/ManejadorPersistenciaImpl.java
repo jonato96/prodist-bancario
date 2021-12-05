@@ -1,5 +1,5 @@
 package com.programacion;
-
+@MiComponente
 public class ManejadorPersistenciaImpl implements ManejadorPersistencia {
     //Usando interfaces nos ayuda a que no se propaguen los errores
     //Ejm: si le cambio el nombre al metodo buscarCuenta, se genera un erro al
