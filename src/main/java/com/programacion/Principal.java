@@ -6,8 +6,7 @@ public class Principal {
 
         TransaccionBancaria tr = new TransaccionBancaria();
         tr.realizarTranferencia("0930146", "314600",100.00f);
-        tr.realizarTranferencia("0930146", "314600",100.00f);
-        tr.realizarTranferencia("0930146", "314600",100.00f);
+
 
     }
 
