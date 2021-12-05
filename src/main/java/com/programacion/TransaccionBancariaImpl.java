@@ -9,7 +9,8 @@ public class TransaccionBancariaImpl implements TransaccionBancaria {
         //Al colocar la instancia dentro del contructor vamos a crear una nueva instancia por cada
         //instancia de transaccion bancaria
         //Las buenas practicas dictar que debe la variable de instancia debe inicializarse en el contructor
-        mp = new ManejadorPersistenciaImpl();
+        mp = new ManejadorPersistenciaNoSqlImpl(); //Podemos cambiar la implementacion, el problema es que seguimos
+        //creando la instancia de forma manual
         // y la instancia debe ser la implementacion
         //La implementacion es el COMO
     }
