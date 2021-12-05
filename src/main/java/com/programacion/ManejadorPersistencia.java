@@ -1,10 +1,7 @@
 package com.programacion;
 
-public class ManejadorPersistencia {
+public interface ManejadorPersistencia {
 
-    public CuentaBancaria buscarCuenta(String cuenta){
-        System.out.println("Buscar cuenta> "+cuenta);
-        return new CuentaBancaria();
-    }
+    CuentaBancaria buscarCuenta(String cuenta);
 
 }
