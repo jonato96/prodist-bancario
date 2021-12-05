@@ -4,13 +4,12 @@ public class TransaccionBancariaImpl implements TransaccionBancaria {
 
     private ManejadorPersistencia mp = null;
 
-    public TransaccionBancariaImpl(){
-        //Se puede asignar a un tercero para que entregue la instancia
-        //***** mp = new ManejadorPersistenciaNoSqlImpl(); *****//
+    public TransaccionBancariaImpl(ManejadorPersistencia mp){
+        //Tambien podemos hacer que un tercero de la instancia con el constructor
+        this.mp = mp;
     }
 
     //Para lograrlo podemos usar un SET
-
     public void setManejadorPersistencia(ManejadorPersistencia mp){
         this.mp = mp;
     }
